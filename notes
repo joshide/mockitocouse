@@ -1,5 +1,0 @@
-Stubs are the sample implementations of the class and can be used in unit testing.
-Stubs suffer from two problems. 1: Dynamic Condition , 2: Tightly coupled to Service they stub
-Dynamic condition : if we want our method of stub to return different values, we need to put if-else condition. This can go out of hand
-very soon and not an optimal solution.
-Whenever Service is modified(Adding a new interface, removing existing interface), stubs will break as they implement these services.
