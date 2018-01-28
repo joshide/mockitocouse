@@ -11,3 +11,19 @@ Mockito return nice mocks (default values) when the methods are not stubbed.
 Using Mockito, we can return multiple values of the stubbed methods.
 Mockito provides support for argument matching.
 Mockito provide support for exception throwing.
+
+//JUnits
+Ideally each condition should have its own unit test.
+Test method name should be readable.
+Unit Test method should be public void. No other signature is allowed.
+fail method
+Absent of failure is success.
+assertTrue and assertFalse
+Each assert method can be used to pass String as an assertion error message when test fails.
+@Before and @After
+@BeforeClass and @AfterClass : Methods with these annotations should be static
+Arrays can be compared using assertArrayEquals method : compare the value of the arrays
+Testing an exception : @Test(expected = NullPointerException.class)
+Performance testing of a function : @Test(timeout = 1000) // 1000 milliseconds
+Parameterized tests : @RunWith(Parameterized.class) @Parameter , instance variables and constructor
+Test Suits : @RunWith(Suits.class) @SuitClasses({})
